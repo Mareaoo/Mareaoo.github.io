@@ -11,9 +11,17 @@
 
 </head>
 <body>
-    <video class="video-background" autoplay loop>
-        <source src="img/The lost soul down X Lost soul - NBSPLV  [ Chainsaw Man Girls ] ART_ Inoitoh.mp4" type="video/mp4">
-    </video>
+    <div id="welcome-screen">
+        <h2>Click para entrar...</h2>
+    </div>
+
+    <div id="main-content">
+        <video class="video-background" autoplay loop muted playsinline>
+            <source src="img/The lost soul down X Lost soul - NBSPLV  [ Chainsaw Man Girls ] ART_ Inoitoh.mp4" type="video/mp4">
+        </video>
+        <audio id="background-audio" loop>
+            <source src="audio/The lost soul down X Lost soul - NBSPLV [ Chainsaw Man Girls ] ART_ Inoitoh.mp3" type="audio/mpeg">
+        </audio>
     <div class="contenedor-padre-pfp-name">
         <img src="img/mareao.png" class="pfp-mareao">
         <div class="contenedor-hijo-nombre-mareao">
@@ -40,7 +48,8 @@
         </div>
     </div>
     <script src="animation.js"></script>
-    <script>src="prevention.js"</script>
+    <script src="prevention.js"></script>
     <div class="topbar"></div>
+    <script src="autoplay.js"></script>
 </body>
 </html>
