@@ -12,8 +12,9 @@ body, html{
     padding: 0;
     height: 100%;
     overflow: hidden;
-    cursor: pointer;
+    cursor: url('../img/kunai.png'), auto;
 }
+
 
 #welcome-screen {
     background-color: black;
@@ -153,18 +154,22 @@ h3{
 
 .contenedor-hijo-nombre-mareao .iconos .icono-twitch:hover{
     transform: scale(1.2);
+    cursor: url('../img/kunai.png'), auto;
 }
 
 .contenedor-hijo-nombre-mareao .iconos .icono-namemc:hover{
     transform: scale(1.2);
+    cursor: url('../img/kunai.png'), auto;
 }
 
 .contenedor-hijo-nombre-mareao .iconos .icono-kodika:hover{
     transform: scale(1.2);
+    cursor: url('../img/kunai.png'), auto;
 }
 
 .contenedor-hijo-nombre-mareao .iconos .icono-onicraft:hover{
     transform: scale(1.2);
+    cursor: url('../img/kunai.png'), auto;
 }
 
 .iconos .icono-namemc svg{
